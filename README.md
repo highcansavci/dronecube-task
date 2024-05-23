@@ -15,9 +15,13 @@
 </p>
 <p>Installation<br>
 <ul>
-  <li> Create of minIO Server. Follow the <a href="https://min.io/docs/minio/windows/index.html">guidelines</a>.</li>
+  <li> Create of minIO Server for image storage. Follow the <a href="https://min.io/docs/minio/windows/index.html">guidelines</a>.</li>
   <li> Clone the repository.</li>
   <li> Change directory to enter the project structure by executing cd dronecube-task</li>
+  <li> pip install virtualenv (if you don't already have virtualenv installed)</li>
+  <li> virtualenv venv to create your new environment (called 'venv' here)</li>
+  <li> source venv/bin/activate to enter the virtual environment</li>
+  <li> pip install -r requirements.txt to install the requirements in the current environment</li>
   <li> Run app.py by executing python app.py</li>
   <li> Redirect to http://localhost:5000</li>
   <li> Sign Up and Login by navigating to the menu in the north-east part of the page and clicking to LOGIN / SIGN-UP button.</li>
