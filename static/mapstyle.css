@@ -1,0 +1,105 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+html, body, #osm-map {
+    height: 100%;
+    width: 100%;
+}
+
+#osm-map {
+    opacity: 1;
+}
+
+.navbar-dark {
+    opacity: 0.2;
+}
+
+.navbar-dark:hover {
+    opacity: 1;
+}
+
+.navbar-dark:hover + #osm-map{
+    opacity: 0.2;
+}
+
+#logo {
+    scale: 1.3;
+    margin-right: 3px;
+}
+
+.leaflet-popup-content {
+    background: #f9f9f9;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.leaflet-popup-content .fa {
+    margin: 0 10px;
+    font-size: 20px;
+}
+
+.leaflet-popup-content span {
+    margin: 3px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.leaflet-popup-content ul {
+    font-size: 15px;
+    margin-top: 20px;
+    color: #777;
+}
+
+.leaflet-popup-content:hover {
+    background: #000;
+    color: #fff;
+    border-radius: 50px 50px 50px 50px;
+    transition: 1s;
+}
+
+.leaflet-popup-content:hover ul {
+    color: #fff;
+}
+
+.leaflet-popup-content:hover .fa {
+    margin-left: 10px;
+}
+
+.leaflet-popup-content .btn {
+    padding: 10px 25px 10px 25px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    border: 2px solid #fff;
+    background: #fff;
+    color: #000
+}
+
+.leaflet-popup-content .btn:focus {
+    box-shadow: none !important;
+}
+
+.leaflet-popup-content .btn:hover {
+    border: 2px solid #000 !important;
+    background: #000000 !important;
+    color: #ffffff;
+    transition: 0.6s;
+}
+
+.leaflet-popup-content .btn:hover #task {
+    color: white;
+}
+
+.leaflet-popup-content .btn .fa {
+    margin-right: 10px;
+}
+
+.leaflet-popup-content #drone-img {
+    width: 1vw;
+    height: 1vh;
+}
+
+.leaflet-popup-content:hover #drone-img {
+    filter: invert(100%);
+}

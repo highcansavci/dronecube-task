@@ -1,0 +1,356 @@
+.myTable {
+  padding-top: 50px;
+}
+
+h1 {
+  font-size: 30px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 50px;
+  padding-bottom: 50px;
+}
+table {
+  width:100%;
+  table-layout: fixed;
+}
+.tbl-header {
+  background-color: rgba(255,255,255,0.3);
+ }
+.tbl-content {
+  height:50vh;
+  overflow-x:auto;
+  margin-top: 0px;
+  border: 1px solid rgba(255,255,255,0.3);
+}
+.compound {
+  text-align: center;
+  padding-right: 80px;
+}
+th {
+  padding: 20px 25px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 12px;
+  color: #fff;
+  text-transform: uppercase;
+}
+td {
+  padding: 15px;
+  text-align: center;
+  vertical-align: middle;
+  font-weight: 300;
+  font-size: 12px;
+  color: #fff;
+  border-bottom: solid 1px rgba(255,255,255,0.1);
+}
+
+body {
+  background: -webkit-linear-gradient(left, #000000, gray);
+  background: linear-gradient(to right, #000000, gray);
+  font-family: 'Roboto', sans-serif;
+}
+section {
+  margin: 50px;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+::-webkit-scrollbar-thumb {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+
+.highlight {
+    filter: invert(100%);
+}
+
+.table tr:hover {
+    cursor: pointer;
+}
+
+.task-button {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.task-button .fa {
+    margin-right: 5px;
+}
+
+.task-button .btn {
+    text-align: center;
+    padding: 10px 25px 10px 25px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    border: 2px solid #fff;
+    background: #fff;
+    color: #000;
+    --bs-btn-disabled-color: white;
+    --bs-btn-disabled-bg: darkgray;
+    --bs-btn-disabled-border-color: darkgray;
+}
+
+.task-button .btn:focus {
+    box-shadow: none !important;
+}
+
+.task-button .btn:hover {
+    border: 2px solid #000 !important;
+    background: #000000 !important;
+    color: #fff;
+    transition: 0.6s;
+}
+
+#drone-info {
+    padding-right: 10.5vw;
+}
+
+.drone {
+    width: 2vw;
+    height: 3vh;
+    margin-right: 10px;
+}
+
+.btn:hover .drone {
+    filter: invert(100%)
+}
+
+.margin-b {
+    margin-right: 10px
+}
+
+.modal-body {
+    background-color:#000000;
+    width: 100%;
+    height: 100%;
+}
+
+.modal-body #regForm {
+    background-color: #000000;
+    margin: 0px auto;
+    font-family: Raleway;
+    padding: 40px;
+    border-radius: 10px;
+    color: #ffffff;
+}
+
+.modal-body #register{
+  color: #ffffff;
+}
+
+.modal-body h1 {
+    text-align: center
+}
+
+.modal-body input {
+    padding: 10px;
+    width: 100%;
+    font-size: 17px;
+    font-family: Raleway;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    -webkit-appearance: none;
+}
+
+.tab input:focus{
+  border:1px solid #6a1b9a !important;
+  outline: none;
+}
+
+input.invalid {
+    border:1px solid red;
+}
+
+.modal-body .tab {
+    display: none
+}
+
+.modal-body button {
+    background-color: darkgray;
+    color: #ffffff;
+    border: none;
+    border-radius: 50%;
+    padding: 10px 20px;
+    font-size: 17px;
+    font-family: Raleway;
+    cursor: pointer
+}
+
+.modal-body button:hover {
+    opacity: 0.8
+}
+
+.modal-body button:focus{
+  outline: none !important;
+}
+
+.modal-body #prevBtn {
+    background-color: #bbbbbb
+}
+
+.modal-body .all-steps{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+}
+
+.modal-body .step {
+    height: 40px;
+    width: 40px;
+    margin: 0 2px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    color: #000000;
+    opacity: 0.5;
+}
+
+.modal-body .step.active {
+    opacity: 1
+}
+
+.modal-body .step.finish {
+   color: #fff;
+   background: #3e3741;
+   opacity: 1;
+}
+
+.modal-body .all-steps {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px
+}
+
+.modal-body .thanks-message {
+    display: none
+}
+
+.form-holder {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      min-height: 50vh;
+}
+
+.form-holder .form-content {
+    position: relative;
+    text-align: center;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center;
+    padding: 60px;
+}
+
+.form-content .form-items {
+    border: 3px solid #fff;
+    padding: 40px;
+    display: inline-block;
+    width: 100%;
+    min-width: 540px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    text-align: left;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+.form-content h3 {
+    color: #fff;
+    text-align: left;
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.form-content h3.form-title {
+    margin-bottom: 30px;
+}
+
+.form-content p {
+    color: #fff;
+    text-align: left;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 20px;
+    margin-bottom: 30px;
+}
+
+
+.form-content label, .was-validated .form-check-input:invalid~.form-check-label, .was-validated .form-check-input:valid~.form-check-label{
+    color: #000000;
+}
+
+#submit-drone {
+    display: none;
+}
+
+.form-content input[type=name], .form-content input[type=date], .form-content select {
+    width: 100%;
+    padding: 9px 20px;
+    text-align: left;
+    border: 0;
+    outline: 0;
+    border-radius: 6px;
+    background-color: #000000;
+    font-size: 15px;
+    font-weight: 300;
+    color: #000000;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.mv-up{
+    margin-top: -9px !important;
+    margin-bottom: 8px !important;
+}
+
+.invalid-feedback{
+    color: #ff606e;
+}
+
+.valid-feedback{
+   color: #2acc80;
+}
+
+#submit-drone, #update-drone, #close-drone, #submit-task, #update-task, #close-task {
+    color: white !important;
+    background-color: black !important;
+}
+
+#completed-task {
+    background-color: white;
+    color: black;
+}
+
+#taskTable thead th {
+    text-align: center;
+}
+
+#taskTable .compound {
+    padding-left: 10.5vw;
+}
